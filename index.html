@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>boot camp</title>
+    <title>Boot camp</title>
     <link rel="stylesheet" href="index.css">
     <script src="index.js" defer></script>
 </head>
 <body>
-    <div id="main_div">
-        <h1 id="main_h1">Movies</h1>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">Movies</h1>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Search</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Favorites</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="main-div">
         <div class="row">
             <input type="search" autofocus autocomplete="off" name="search" id="search" placeholder="Search for movies...">
-
         </div>
-        <div class="row" id="movie-box"></div>
+        <div class="row" id="movie-box-div"></div>
     </div>
 </body>
 </html>
